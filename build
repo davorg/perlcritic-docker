@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker build -t davorg/perl-perlcritic:latest .
+docker push -a docker.io/davorg/perl-perlcritic
